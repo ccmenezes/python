@@ -1,4 +1,4 @@
-## Class 01
+## Lecture 01
 ## Variables
 
 name = "Fulano"
