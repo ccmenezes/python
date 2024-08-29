@@ -3,7 +3,7 @@
 
 """ Determines if a shopping list item is eligible for free shipping """
 """Assignment operators"""
-item_name='banana'
+item_name="banana"
 quantity=5
 discount_race=0.1
 eligible_items="orange banana carrot"
@@ -35,7 +35,7 @@ was_discount_applied = discount > 0
 print(f"Was the discount applied? {was_discount_applied}")
 
 """ Logical operators """
-# Check if free shipping should be applied (quantity > 5 AND item_name = 'banana')
-does_free_shipping_apply = quantity >= 5 and item_name == 'banana'
+# Check if free shipping should be applied (quantity > 5 AND item_name = "banana")
+does_free_shipping_apply = quantity >= 5 and item_name == "banana"
 print(f"Is this item eligible for free shipping? {does_free_shipping_apply}")
 
